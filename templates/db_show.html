@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分類</title>
+    <link rel="stylesheet" href="/static/hello.css">
+</head>
+<body>
+    <h1>感情極性対応表とjanomeを使って,良し悪し文章分類</h1>
+
+    <br>
+
+    <ul>
+    {% for x in rows %}
+      <li>{{ x }}</li>
+    {% endfor %}
+    </ul>
+
+</body>
+</html>
